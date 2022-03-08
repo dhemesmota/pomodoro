@@ -2,7 +2,7 @@
   "name": "countdown",
   "private": false,
   "version": "1.0.1",
-  "homepage": "https://dhemesmota.github.io/pomodoro/",
+  "homepage": "https://dh-pomodoro.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
