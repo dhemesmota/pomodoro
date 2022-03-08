@@ -2,10 +2,13 @@
   "name": "countdown",
   "private": false,
   "version": "1.0.1",
+  "homepage": "https://dhemesmota.github.io/pomodoro/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "tsc && vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.8.1",
