@@ -29,7 +29,7 @@ const theme = createTheme({
     }
   },
   status: {
-    danger: orange[500],
+    danger: '#141120',
   },
 });
 
